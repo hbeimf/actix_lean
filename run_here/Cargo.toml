@@ -3,4 +3,12 @@ name = "run_here"
 version = "0.1.0"
 authors = ["maomao <5622876@qq.com>"]
 
+[[bin]]
+name = "websocket-tcp-server"
+path = "src/main.rs"
+
 [dependencies]
+log = "0.4.6"
+easy-logging = "*"
+
+actix={path = "../actix"}
