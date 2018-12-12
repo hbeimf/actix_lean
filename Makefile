@@ -30,7 +30,7 @@
 # 	rm -rf ./bin/api.master.release.tar.gz
 
 run:
-	cargo run --bin websocket-tcp-server
+	cargo run --bin run_here
 
 tcp:
 	cd ../test/tcp_client && rebar3 shell
